@@ -3,6 +3,9 @@
 ## 🚀 Project Overview
 **DigReco** (short for *Digits Recognition*) is an AI-powered application designed to recognize handwritten digits. It uses **TensorFlow** for model development and **Flask** for deployment, the project provides a simple, interactive interface to predict digits written by users.
 
+## 🚀 Video
+This project was presented in a webinar. Here you can find the recorded video for complete walkthrough of project - [Link](https://www.techgig.com/webinar/Implementing-your-first-AI-application-2446).
+
 ## 🎯 Features
 - **AI Model**: Built with a Convolutional Neural Network (CNN) using TensorFlow/Keras.
 - **Interactive UI**: Allows users to upload an image for recognition.
@@ -40,13 +43,13 @@ DigReco/
 │
 └───TestingData/                 # Sample testing images for validating the model
     │
-    ├── 0.PNG                    # Image of digit '0'
-    ├── 2.PNG                    # Image of digit '2'
-    ├── 3.PNG                    # Image of digit '3'
-    ├── 5-2.PNG                  # Image of mixed digits '5' and '2'
-    ├── 6.PNG                    # Image of digit '6'
-    ├── 7.PNG                    # Image of digit '7'
-    └── 8.PNG                    # Image of digit '8'
+    ├── 0.PNG                    
+    ├── 2.PNG                    
+    ├── 3.PNG                    
+    ├── 5-2.PNG                  
+    ├── 6.PNG                    
+    ├── 7.PNG                    
+    └── 8.PNG                    
 
 ```
 
@@ -172,4 +175,4 @@ This project is licensed under the MIT License.
 ## 🤝 Contact
 For queries or suggestions, reach out at:
 - **Email**: pradeep.online00@gmail.com
-- **LinkedIn**: [https://www.linkedin.com/in/prady00/] (https://www.linkedin.com/in/prady00/)
+- **LinkedIn**: [Pradeep Kumar on Linkedin] (https://www.linkedin.com/in/prady00/)
