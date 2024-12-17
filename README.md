@@ -63,7 +63,7 @@ DigReco/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/digreco.git
+   git clone https://github.com/prady00/digreco.git
    cd digreco
    ```
 
@@ -78,13 +78,29 @@ DigReco/
    pip install -r requirements.txt
    ```
 
-4. **Run the application**:
+4. **Training the model** (optional, I've added a pretrained model):
    ```bash
-   python app.py
+   cd ModelTraining
+   python training.py
    ```
+    It will produce a model tuned_handwritten_digit_model.h5 
+    You can move tuned_handwritten_digit_model.h5 to ModelServing folder for deployment or serving
 
-5. **Access the app**:
-   Open [http://localhost:5000](http://localhost:5000) in your browser.
+5. **Start the backend**:
+    ```bash
+    cd ModelServing
+    python backend.py
+    ```
+    Keep the terminal running. It exposes the model through Flask on port 5000
+   
+6. **Start the frontend**:
+    ```bash
+    cd Frontend
+    python -m http.server
+    ```
+
+7. **Access the frontend app**:
+   Open [http://localhost:8000](http://localhost:8000) in your browser.
 
 ---
 
